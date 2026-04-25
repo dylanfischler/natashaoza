@@ -11,22 +11,22 @@ export const metadata: Metadata = {
 
 const experience = [
   {
-    org: "Coinbase",
-    role: "Lead UX Researcher",
-    range: "2023 — Present",
-    blurb: "Portfolio, accessibility, and trading flows for the consumer app.",
-  },
-  {
-    org: "Independent",
-    role: "Researcher and instructional designer",
-    range: "2022",
-    blurb: "Edtech course redesign that took completion from 5% to 86%.",
-  },
-  {
     org: "FM Global",
-    role: "UX Researcher",
-    range: "2020 — 2021",
-    blurb: "Insurance product research, under NDA.",
+    role: "Senior UX Researcher",
+    range: "2023 — Present",
+    blurb: "Key researcher on $50M product, from zero-to-one strategy through post-launch iteration",
+  },
+  {
+    org: "Coinbase",
+    role: "UX Research, intern",
+    range: "2022",
+    blurb: "Lead researcher for Retail Advanced Trade",
+  },
+  {
+    org: "X Billion Skills Lab",
+    role: "User Experience Architect",
+    range: "2018 — 2021",
+    blurb: "Founding member of B2B EdTech startup, responsible for engagement and growth",
   },
 ];
 
@@ -36,8 +36,8 @@ const education = [
     detail: "M.S., Behavioral and Decision Sciences",
   },
   {
-    school: "Undergraduate placeholder",
-    detail: "B.A., field — university (TODO)",
+    school: "St Xavier's College",
+    detail: "B.S., Life Science",
   },
 ];
 
@@ -74,10 +74,10 @@ export default function AboutPage() {
             <div className="col-span-12 lg:col-span-4">
               <div
                 aria-label="Photo of Natasha Oza (placeholder)"
-                className="aspect-[4/5] w-full bg-cream-soft border border-hairline flex items-center justify-center"
+                className="aspect-[4/5] w-full bg-[url(/headshot.jpeg)] bg-cover bg-center border border-hairline flex items-center justify-center"
               >
-                <span className="font-mono text-kicker uppercase text-ink-soft">
-                  Photo TBD
+                <span className="font-mono text-kicker uppercase text-ink-soft ">
+                  {/* <img src="/headshot.jpeg" /> */}
                 </span>
               </div>
             </div>
