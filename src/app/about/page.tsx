@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const experience = [
   {
-    org: "FM Global",
+    org: "FM Global ",
     role: "Senior UX Researcher",
     range: "2023 — Present",
     blurb: "Key researcher on $50M product, from zero-to-one strategy through post-launch iteration",
