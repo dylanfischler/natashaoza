@@ -50,7 +50,7 @@ export function CaseStudyCard({ study, index }: CaseStudyCardProps) {
 
         <div className="mt-2 flex items-center justify-between gap-4 text-small text-ink-soft">
           <span className="font-mono uppercase tracking-wider">
-            {study.role} · {study.year}
+            {study.role}{study.year ? ` · ${study.year}` : ""}
           </span>
           <span
             aria-hidden="true"
