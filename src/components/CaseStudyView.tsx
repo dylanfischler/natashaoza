@@ -126,7 +126,11 @@ function BodyBlock({ block }: { block: ContentBlock }) {
   switch (block.type) {
     case "paragraph":
       return (
-        <p className="text-lead text-ink max-w-[60ch]">
+        <p
+          className={`text-lead text-ink max-w-[60ch]${
+            block.italic ? " italic" : ""
+          }`}
+        >
           {block.parts ? renderInlines(block.parts) : block.text}
         </p>
       );
@@ -193,11 +197,20 @@ function BodyBlock({ block }: { block: ContentBlock }) {
     case "image":
       return (
         <figure className="flex flex-col gap-3">
-          <div className="border border-dashed border-hairline bg-cream-soft flex items-center justify-center py-16 px-8 text-center">
-            <span className="font-mono text-kicker uppercase text-ink-soft">
-              [Image TODO: {block.placeholder}]
-            </span>
-          </div>
+          {block.src ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={block.src}
+              alt={block.caption ?? block.placeholder}
+              className="w-full"
+            />
+          ) : (
+            <div className="border border-dashed border-hairline bg-cream-soft flex items-center justify-center py-16 px-8 text-center">
+              <span className="font-mono text-kicker uppercase text-ink-soft">
+                [Image TODO: {block.placeholder}]
+              </span>
+            </div>
+          )}
           {block.caption && (
             <figcaption className="text-small text-ink-soft italic max-w-[60ch]">
               {block.caption}
