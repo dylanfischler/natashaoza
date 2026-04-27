@@ -3,7 +3,6 @@ import { Container } from "./Container";
 
 const links = [
   { label: "Work", href: "/#work", external: false },
-  { label: "About", href: "/about", external: false },
   { label: "Resume", href: "https://drive.google.com/file/d/1cwFitapr33Wyhw7VkFnQf3iYhqPaoy-U/view?usp=sharing", external: true },
   { label: "Contact", href: "/#contact", external: false },
 ] as const;
