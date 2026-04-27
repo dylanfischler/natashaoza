@@ -76,9 +76,6 @@ export default function AboutPage() {
                 aria-label="Photo of Natasha Oza (placeholder)"
                 className="aspect-[4/5] w-full bg-[url(/headshot.jpeg)] bg-cover bg-center border border-hairline flex items-center justify-center"
               >
-                <span className="font-mono text-kicker uppercase text-ink-soft ">
-                  {/* <img src="/headshot.jpeg" /> */}
-                </span>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-7 lg:col-start-6 flex flex-col gap-6 text-lead text-ink max-w-[55ch]">
@@ -244,10 +241,10 @@ export default function AboutPage() {
                   Selected work →
                 </Link>
                 <a
-                  href="mailto:noza@upenn.edu"
+                  href="mailto:natasha.oza96@gmail.com"
                   className="text-h2 font-medium text-terracotta underline-offset-4 hover:underline transition-colors"
                 >
-                  noza@upenn.edu
+                  natasha.oza96@gmail.com
                 </a>
               </div>
             </div>

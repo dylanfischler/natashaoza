@@ -181,12 +181,10 @@ function BodyBlock({ block }: { block: ContentBlock }) {
       );
 
     case "callout": {
-      const emoji = block.variant === "challenge" ? "⚒️" : "🚀";
       const label = block.variant === "challenge" ? "Challenge" : "Learning";
       return (
         <aside className="border-l-4 border-terracotta bg-cream-soft px-6 py-5 max-w-[60ch] flex flex-col gap-3">
           <p className="font-mono text-kicker uppercase text-terracotta tracking-wider">
-            <span aria-hidden="true">{emoji} </span>
             {label}
           </p>
           <p className="text-body text-ink leading-relaxed">{block.text}</p>

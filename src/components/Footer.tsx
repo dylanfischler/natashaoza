@@ -10,14 +10,14 @@ export function Footer() {
         </p>
         <p className="font-mono text-kicker uppercase text-ink-soft">
           <a
-            href="mailto:noza@upenn.edu"
+            href="mailto:natasha.oza96@gmail.com"
             className="hover:text-terracotta transition-colors"
           >
-            noza@upenn.edu
+            natasha.oza96@gmail.com
           </a>
           <span className="mx-3 text-hairline">·</span>
           <a
-            href="https://www.linkedin.com/in/natashaoza/"
+            href="https://www.linkedin.com/in/natasha-oza/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-terracotta transition-colors"

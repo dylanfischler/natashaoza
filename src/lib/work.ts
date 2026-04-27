@@ -118,13 +118,13 @@ export const work: CaseStudy[] = [
   {
     slug: "coinbase-portfolio",
     title: "Coinbase Pro: Future of the Portfolio Feature",
-    kicker: "Fintech · Coinbase",
+    kicker: "Fintech · Lit Review · Interviews · Kano Analysis",
     role: "User Researcher (intern)",
     duration: "8 weeks",
     team: "2 Product managers, Data scientist, Product designer",
     methods: ["Literature review", "Interviews", "Survey", "Kano analysis"],
     outcome:
-      "The final presented research insights made portfolios top of mind for senior leadership.",
+      "Final presented research insights made portfolios top of mind for senior leadership",
     body: [
       {
         kicker: "Overview",
@@ -379,13 +379,13 @@ export const work: CaseStudy[] = [
   {
     slug: "coinbase-accessibility",
     title: "Coinbase Accessibility",
-    kicker: "Fintech · Accessibility",
+    kicker: "Fintech · Lit review · semi-structured, in-depth Interviews",
     role: "User Researcher (intern)",
     duration: "6 weeks",
     team: "3 Researchers, Accessibility Lead",
     methods: ["Industry & literature review (best practices)", "Interviews"],
     outcome:
-      "Our 25+ insight-based recommendations addressed 8 severity 1 issues identified in the audit and were added to the Coinbase Design System accessibility main page.",
+      "25+ insight-based recommendations were added to the Coinbase Design System accessibility page",
     body: [
       {
         kicker: "Overview",
@@ -553,19 +553,19 @@ export const work: CaseStudy[] = [
   {
     slug: "e-learning",
     title: "Enhancing User Experience on an E-Learning Platform",
-    kicker: "Edtech · X Billion Skills Lab",
-    role: "User Researcher and Product Strategist",
+    kicker: "Edtech · Lit review · Moderated usability tests",
+    role: "User Experience Architect",
     duration: "6 weeks",
     team: "3 Designers, 2 Developers, CEO",
     methods: ["Industry & literature review", "Interviews", "Moderated Usability Test"],
     outcome:
-      "Both of my recommendations were implemented – drastically improving user feedback in the short run and, in the long run along with other iterations, course completion rates.",
-    metric: {
-      from: 5,
-      to: 86,
-      suffix: "%",
-      label: "Completion rate",
-    },
+      "Increased course completion rate from 5% to 86%",
+    // metric: {
+    //   from: 5,
+    //   to: 86,
+    //   suffix: "%",
+    //   label: "Completion rate",
+    // },
     body: [
       {
         kicker: "Overview",
@@ -821,12 +821,11 @@ export const work: CaseStudy[] = [
   },
   {
     slug: "fm-global",
-    title: "Insurance research, under NDA",
-    kicker: "Insurance · NDA",
-    role: "UX researcher",
-    year: "2021",
+    title: "Saving $12M on enterprise software",
+    kicker: "Insurance · Desk research · in-depth interviews",
+    role: "Senior UX researcher",
     outcome:
-      "Mixed-methods study with FM Global. Available on request — see passcode below.",
+      "Research discovery resulted in mid-study pivot and saved 25% on building costs",
     summary:
       "This case study is gated. Enter the passcode you were given to read the full write-up.",
     gated: true,

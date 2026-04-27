@@ -60,10 +60,10 @@ export function PasswordGate({ hasError }: PasswordGateProps) {
                 >
                   That passcode didn&rsquo;t match. Try again, or email{" "}
                   <a
-                    href="mailto:noza@upenn.edu"
+                    href="mailto:natasha.oza96@gmail.com"
                     className="underline hover:text-terracotta"
                   >
-                    noza@upenn.edu
+                    natasha.oza96@gmail.com
                   </a>
                   .
                 </p>
@@ -73,7 +73,7 @@ export function PasswordGate({ hasError }: PasswordGateProps) {
             <p className="text-small text-ink-soft max-w-[55ch]">
               Don&rsquo;t have a passcode?{" "}
               <a
-                href="mailto:noza@upenn.edu?subject=FM%20Global%20case%20study%20access"
+                href="mailto:natasha.oza96@gmail.com?subject=FM%20Global%20case%20study%20access"
                 className="text-terracotta underline underline-offset-4 hover:decoration-2 transition-all"
               >
                 Email me
